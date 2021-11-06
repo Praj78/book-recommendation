@@ -25,7 +25,7 @@ function toshow(grat){
  return (
    <div className="App">
    <h1> 📚 book recommendation</h1>
-  <p style={{fontSize:"smaller"}}>{" "}select the genres to see the book recomdation of great people{" "}</p>
+  <p style={{fontSize:"smaller"}}>{" "}select the genres to see the book recommendation of great people{" "}</p>
    <div>{
      Object.keys(list).map((grat)=>(
        <button
